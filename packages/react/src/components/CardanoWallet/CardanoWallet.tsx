@@ -23,7 +23,7 @@ const StyledMenuList = styled.div(({ hidden }: { hidden: boolean }) => [
 ]);
 
 export const CardanoWallet = ({
-  label = 'Connect Wallet',
+  label = 'New Connect Wallet',
   onConnected = undefined
 }: {
   label?: string,
@@ -77,7 +77,7 @@ export const CardanoWallet = ({
             />
           ))
         ) : wallets.length === 0 ? (
-          <span>No Wallet Found</span>
+          <span>New No Wallet Found</span>
         ) : (
           <>
             <MenuItem

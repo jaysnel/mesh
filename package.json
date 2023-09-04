@@ -1,7 +1,7 @@
 {
   "name": "@meshjs/root",
   "homepage": "https://meshjs.dev",
-  "author": "MeshJS",
+  "author": "MeshJS but with jaysnel",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
